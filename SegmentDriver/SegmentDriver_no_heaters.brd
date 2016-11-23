@@ -1210,18 +1210,6 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 &lt;/tr&gt;
 &lt;/table&gt;</description>
 <packages>
-<package name="C1206K">
-<description>&lt;b&gt;Ceramic Chip Capacitor KEMET 1206 reflow solder&lt;/b&gt;&lt;p&gt;
-Metric Code Size 3216</description>
-<wire x1="-1.525" y1="0.75" x2="1.525" y2="0.75" width="0.1016" layer="51"/>
-<wire x1="1.525" y1="-0.75" x2="-1.525" y2="-0.75" width="0.1016" layer="51"/>
-<smd name="1" x="-1.5" y="0" dx="1.5" dy="2" layer="1"/>
-<smd name="2" x="1.5" y="0" dx="1.5" dy="2" layer="1"/>
-<text x="-1.6" y="1.1" size="1.016" layer="25">&gt;NAME</text>
-<text x="-1.6" y="-2.1" size="1.016" layer="27">&gt;VALUE</text>
-<rectangle x1="-1.6" y1="-0.8" x2="-1.1" y2="0.8" layer="51"/>
-<rectangle x1="1.1" y1="-0.8" x2="1.6" y2="0.8" layer="51"/>
-</package>
 <package name="R0603">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;</description>
 <wire x1="-0.432" y1="-0.356" x2="0.432" y2="-0.356" width="0.1524" layer="51"/>
@@ -1266,78 +1254,6 @@ Metric Code Size 1608</description>
 </library>
 <library name="simbits">
 <packages>
-<package name="WB-SOP5">
-<description>Wide Body SOP 5-Pin</description>
-<wire x1="-2.075" y1="-4.65" x2="-2.075" y2="4.65" width="0.127" layer="21"/>
-<wire x1="-2.075" y1="-4.65" x2="2.075" y2="-4.65" width="0.127" layer="21"/>
-<wire x1="2.075" y1="-4.65" x2="2.075" y2="4.65" width="0.127" layer="21"/>
-<wire x1="-2.075" y1="4.65" x2="2.075" y2="4.65" width="0.127" layer="21"/>
-<smd name="5" x="0" y="5.35" dx="2.05" dy="0.6" layer="1" rot="R90"/>
-<smd name="1" x="-1.27" y="-5.35" dx="2.05" dy="0.6" layer="1" rot="R90"/>
-<smd name="3" x="1.27" y="-5.35" dx="2.05" dy="0.6" layer="1" rot="R90"/>
-<smd name="4" x="1.27" y="5.35" dx="2.05" dy="0.6" layer="1" rot="R90"/>
-<smd name="6" x="-1.27" y="5.35" dx="2.05" dy="0.6" layer="1" rot="R90"/>
-<circle x="-1.27" y="-3.5" radius="0.4242625" width="0.127" layer="21"/>
-<rectangle x1="-1.525" y1="4.555" x2="-1.015" y2="5.805" layer="51" rot="R180"/>
-<rectangle x1="-0.255" y1="4.555" x2="0.255" y2="5.805" layer="51" rot="R180"/>
-<rectangle x1="1.015" y1="4.555" x2="1.525" y2="5.805" layer="51" rot="R180"/>
-<rectangle x1="1.015" y1="-5.905" x2="1.525" y2="-4.655" layer="51" rot="R180"/>
-<rectangle x1="-1.525" y1="-5.905" x2="-1.015" y2="-4.655" layer="51" rot="R180"/>
-<text x="-2.54" y="7.62" size="1.27" layer="25">&gt;NAME</text>
-<text x="-2.54" y="-8.89" size="1.27" layer="27">&gt;VALUE</text>
-</package>
-<package name="POWERPACK5060-8">
-<smd name="S3" x="-2.675" y="-0.635" dx="1.27" dy="0.61" layer="1"/>
-<smd name="S2" x="-2.675" y="0.635" dx="1.27" dy="0.61" layer="1"/>
-<smd name="S1" x="-2.675" y="1.905" dx="1.27" dy="0.61" layer="1"/>
-<smd name="G4" x="-2.675" y="-1.905" dx="1.27" dy="0.61" layer="1"/>
-<smd name="D7" x="2.915" y="0.635" dx="0.77" dy="0.61" layer="1"/>
-<smd name="D8" x="2.79" y="1.905" dx="1.02" dy="0.61" layer="1"/>
-<smd name="D6" x="2.915" y="-0.635" dx="0.77" dy="0.61" layer="1"/>
-<smd name="D5" x="2.79" y="-1.905" dx="1.02" dy="0.61" layer="1"/>
-<smd name="DPAD" x="0.65" y="-0.05" dx="3.75" dy="3.91" layer="1"/>
-<wire x1="-3" y1="2.5" x2="3" y2="2.5" width="0.127" layer="21"/>
-<wire x1="3" y1="2.5" x2="3" y2="1.9" width="0.127" layer="21"/>
-<wire x1="-3" y1="2.5" x2="-3" y2="1.905" width="0.127" layer="21"/>
-<wire x1="-3" y1="-2.5" x2="3" y2="-2.5" width="0.127" layer="21"/>
-<wire x1="3" y1="-2.5" x2="3" y2="-1.9" width="0.127" layer="21"/>
-<wire x1="-3" y1="-2.5" x2="-3" y2="-1.905" width="0.127" layer="21"/>
-<text x="0" y="-2.9" size="0.4064" layer="27" font="vector" align="center">&gt;VALUE</text>
-<text x="0" y="2.9" size="0.4064" layer="25" font="vector" align="center">&gt;NAME</text>
-<circle x="-3" y="3" radius="0.3" width="0" layer="21"/>
-</package>
-<package name="LITE-TRAP-CONNECTOR-2">
-<description>&lt;b&gt;MOLEX Lite-Trap Poke-In SMT Connector, 1 place&lt;/b&gt;
-&lt;p&gt;
-Molex #: 104188-0210&lt;br&gt;
-dimensional drawing: &lt;a href="http://www.molex.com/pdm_docs/sd/1041880210_sd.pdf"&gt;http://www.molex.com/pdm_docs/sd/1041880110_sd.pdf&lt;/a&gt;&lt;br&gt;
-&lt;br&gt;
-Solid wire: AWG #24~#18&lt;br&gt;
-Stranded wire: AWG #24~#20
-&lt;/p&gt;</description>
-<wire x1="5.9" y1="-3.95" x2="-5.9" y2="-3.95" width="0.127" layer="21"/>
-<wire x1="5.9" y1="3.95" x2="-5.9" y2="3.95" width="0.127" layer="21"/>
-<wire x1="5.9" y1="-3.95" x2="5.9" y2="-0.05" width="0.127" layer="21"/>
-<wire x1="5.9" y1="-0.05" x2="5.9" y2="0.05" width="0.127" layer="21"/>
-<wire x1="5.9" y1="0.05" x2="5.9" y2="3.95" width="0.127" layer="21"/>
-<wire x1="-5.9" y1="-3.95" x2="-5.9" y2="-0.05" width="0.127" layer="21"/>
-<smd name="1B" x="5.9" y="-2" dx="2" dy="3.5" layer="1" rot="R270"/>
-<smd name="1A" x="-3.4" y="-2" dx="6" dy="2" layer="1" rot="R180"/>
-<wire x1="-5.9" y1="-0.05" x2="-5.9" y2="0.05" width="0.127" layer="21"/>
-<wire x1="-5.9" y1="0.05" x2="-5.9" y2="3.95" width="0.127" layer="21"/>
-<wire x1="-5" y1="-3.9" x2="-5" y2="-0.1" width="0.127" layer="21"/>
-<wire x1="-6.5" y1="4" x2="-6.5" y2="-4" width="0.127" layer="39"/>
-<wire x1="-6.5" y1="-4" x2="7.8" y2="-4" width="0.127" layer="39"/>
-<wire x1="7.8" y1="-4" x2="7.8" y2="4" width="0.127" layer="39"/>
-<wire x1="7.8" y1="4" x2="-6.5" y2="4" width="0.127" layer="39"/>
-<text x="-5.9" y="4.65" size="1.27" layer="25">&gt;NAME</text>
-<text x="-6" y="-5.7" size="1.27" layer="25">&gt;VALUE</text>
-<wire x1="5.9" y1="-0.05" x2="-5.9" y2="-0.05" width="0.127" layer="21"/>
-<smd name="2A" x="-3.4" y="2" dx="6" dy="2" layer="1" rot="R180"/>
-<smd name="2B" x="5.9" y="2" dx="2" dy="3.5" layer="1" rot="R270"/>
-<wire x1="-5" y1="0.1" x2="-5" y2="3.9" width="0.127" layer="21"/>
-<wire x1="-5.9" y1="0.05" x2="5.9" y2="0.05" width="0.127" layer="21"/>
-</package>
 <package name="TSSOP28">
 <description>Thin Shrink Small Outline Plastic 28</description>
 <wire x1="-4.9" y1="-2.25" x2="4.9" y2="-2.25" width="0.1524" layer="21"/>
@@ -1958,64 +1874,6 @@ For feedback and Technical support please contact reach from below:
 &lt;br&gt;Community website: &lt;a href=http://www.element14.com/community/community/knode/cad_tools/cadsoft_eagle/eagle_cad_libraries&gt;
 EAGLE CAD Libraries on element14&lt;/a&gt;</description>
 <packages>
-<package name="CAPAE1900X1700N">
-<smd name="1" x="-6.9596" y="0" dx="7.366" dy="1.4986" layer="1"/>
-<smd name="2" x="6.9596" y="0" dx="7.366" dy="1.4986" layer="1"/>
-<wire x1="10.8966" y1="-9.8552" x2="-10.8966" y2="-9.8552" width="0.1524" layer="39"/>
-<wire x1="-10.8966" y1="-9.8552" x2="-10.8966" y2="9.8552" width="0.1524" layer="39"/>
-<wire x1="-10.8966" y1="9.8552" x2="10.8966" y2="9.8552" width="0.1524" layer="39"/>
-<wire x1="10.8966" y1="9.8552" x2="10.8966" y2="-9.8552" width="0.1524" layer="39"/>
-<wire x1="9.6012" y1="1.0922" x2="9.6012" y2="9.6012" width="0.1524" layer="21"/>
-<wire x1="-9.6012" y1="-1.0922" x2="-9.6012" y2="-4.8006" width="0.1524" layer="21"/>
-<wire x1="-9.6012" y1="-4.8006" x2="-9.6012" y2="-9.6012" width="0.1524" layer="21"/>
-<wire x1="-11.3792" y1="0" x2="-12.1412" y2="0" width="0.1524" layer="21"/>
-<wire x1="-11.7602" y1="0.381" x2="-11.7602" y2="-0.381" width="0.1524" layer="21"/>
-<wire x1="-9.6012" y1="4.8006" x2="-4.8006" y2="9.6012" width="0.1524" layer="21"/>
-<wire x1="-9.6012" y1="-4.8006" x2="-4.8006" y2="-9.6012" width="0.1524" layer="21"/>
-<wire x1="-9.6012" y1="-9.6012" x2="9.6012" y2="-9.6012" width="0.1524" layer="21"/>
-<wire x1="9.6012" y1="-9.6012" x2="9.6012" y2="-1.0922" width="0.1524" layer="21"/>
-<wire x1="9.6012" y1="9.6012" x2="-9.6012" y2="9.6012" width="0.1524" layer="21"/>
-<wire x1="-9.6012" y1="9.6012" x2="-9.6012" y2="1.0922" width="0.1524" layer="21"/>
-<wire x1="-11.3792" y1="0" x2="-12.1412" y2="0" width="0.1524" layer="51"/>
-<wire x1="-11.7602" y1="0.381" x2="-11.7602" y2="-0.381" width="0.1524" layer="51"/>
-<wire x1="-9.6012" y1="4.8006" x2="-4.8006" y2="9.6012" width="0.1524" layer="51"/>
-<wire x1="-9.6012" y1="-4.8006" x2="-4.8006" y2="-9.6012" width="0.1524" layer="51"/>
-<wire x1="-9.6012" y1="-9.6012" x2="9.6012" y2="-9.6012" width="0.1524" layer="51"/>
-<wire x1="9.6012" y1="-9.6012" x2="9.6012" y2="9.6012" width="0.1524" layer="51"/>
-<wire x1="9.6012" y1="9.6012" x2="-9.6012" y2="9.6012" width="0.1524" layer="51"/>
-<wire x1="-9.6012" y1="9.6012" x2="-9.6012" y2="-9.6012" width="0.1524" layer="51"/>
-<text x="-5.2324" y="9.9568" size="2.0828" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
-<text x="-6.3246" y="-12.3952" size="2.0828" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
-</package>
-<package name="CAPAE1700X1700N">
-<smd name="1" x="-6.5786" y="0" dx="6.1722" dy="1.4986" layer="1"/>
-<smd name="2" x="6.5786" y="0" dx="6.1722" dy="1.4986" layer="1"/>
-<wire x1="9.906" y1="-8.8646" x2="-9.906" y2="-8.8646" width="0.1524" layer="39"/>
-<wire x1="-9.906" y1="-8.8646" x2="-9.906" y2="8.8646" width="0.1524" layer="39"/>
-<wire x1="-9.906" y1="8.8646" x2="9.906" y2="8.8646" width="0.1524" layer="39"/>
-<wire x1="9.906" y1="8.8646" x2="9.906" y2="-8.8646" width="0.1524" layer="39"/>
-<wire x1="8.6106" y1="1.0922" x2="8.6106" y2="8.6106" width="0.1524" layer="21"/>
-<wire x1="-8.6106" y1="-1.0922" x2="-8.6106" y2="-4.2926" width="0.1524" layer="21"/>
-<wire x1="-8.6106" y1="-4.2926" x2="-8.6106" y2="-8.6106" width="0.1524" layer="21"/>
-<wire x1="-10.3886" y1="0" x2="-11.1506" y2="0" width="0.1524" layer="21"/>
-<wire x1="-10.7696" y1="0.381" x2="-10.7696" y2="-0.381" width="0.1524" layer="21"/>
-<wire x1="-8.6106" y1="4.2926" x2="-4.2926" y2="8.6106" width="0.1524" layer="21"/>
-<wire x1="-8.6106" y1="-4.2926" x2="-4.2926" y2="-8.6106" width="0.1524" layer="21"/>
-<wire x1="-8.6106" y1="-8.6106" x2="8.6106" y2="-8.6106" width="0.1524" layer="21"/>
-<wire x1="8.6106" y1="-8.6106" x2="8.6106" y2="-1.0922" width="0.1524" layer="21"/>
-<wire x1="8.6106" y1="8.6106" x2="-8.6106" y2="8.6106" width="0.1524" layer="21"/>
-<wire x1="-8.6106" y1="8.6106" x2="-8.6106" y2="1.0922" width="0.1524" layer="21"/>
-<wire x1="-10.3886" y1="0" x2="-11.1506" y2="0" width="0.1524" layer="51"/>
-<wire x1="-10.7696" y1="0.381" x2="-10.7696" y2="-0.381" width="0.1524" layer="51"/>
-<wire x1="-8.6106" y1="4.2926" x2="-4.2926" y2="8.6106" width="0.1524" layer="51"/>
-<wire x1="-8.6106" y1="-4.2926" x2="-4.2926" y2="-8.6106" width="0.1524" layer="51"/>
-<wire x1="-8.6106" y1="-8.6106" x2="8.6106" y2="-8.6106" width="0.1524" layer="51"/>
-<wire x1="8.6106" y1="-8.6106" x2="8.6106" y2="8.6106" width="0.1524" layer="51"/>
-<wire x1="8.6106" y1="8.6106" x2="-8.6106" y2="8.6106" width="0.1524" layer="51"/>
-<wire x1="-8.6106" y1="8.6106" x2="-8.6106" y2="-8.6106" width="0.1524" layer="51"/>
-<text x="-5.4864" y="9.0932" size="2.0828" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
-<text x="-6.35" y="-11.1506" size="2.0828" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
-</package>
 <package name="CAPAE830X1050N">
 <smd name="1" x="-3.1242" y="0" dx="4.064" dy="1.0922" layer="1"/>
 <smd name="2" x="3.1242" y="0" dx="4.064" dy="1.0922" layer="1"/>
@@ -2365,17 +2223,6 @@ Copyright: Würth Elektronik</description>
 <pad name="4" x="5.08" y="0" drill="1.3"/>
 <text x="-8.9344" y="6.5269" size="1.27" layer="25">&gt;NAME</text>
 <text x="-8.9344" y="-8.305" size="1.27" layer="27">&gt;VALUE</text>
-</package>
-<package name="691313710002">
-<description>&lt;b&gt;WR-TBL Serie 3137 - 5.0mm Close Horizontal PCB Header , 2 Pins</description>
-<wire x1="3.5" y1="2" x2="-8.5" y2="2" width="0.127" layer="21"/>
-<wire x1="-8.5" y1="2" x2="-8.5" y2="-10" width="0.127" layer="21"/>
-<wire x1="-8.5" y1="-10" x2="3.5" y2="-10" width="0.127" layer="21"/>
-<wire x1="3.5" y1="-10" x2="3.5" y2="2" width="0.127" layer="21"/>
-<pad name="1" x="-5" y="0" drill="1.6"/>
-<pad name="2" x="0" y="0" drill="1.6"/>
-<text x="-11.6992" y="6.8085" size="1.27" layer="25">&gt;NAME</text>
-<text x="-11.6992" y="-11.5866" size="1.27" layer="27">&gt;VALUE</text>
 </package>
 <package name="691322310002">
 <description>&lt;b&gt;WR-TBL Serie 322 - 3.81mm Vertical PCB Header , 2 Pins</description>
@@ -2995,34 +2842,7 @@ design rules under a new name.
 </autorouter>
 <elements>
 <element name="U2" library="adafruit" package="TSSOP28" value="" x="87.5" y="80.4" rot="R180"/>
-<element name="Q1" library="simbits" package="POWERPACK5060-8" value="MOSFET-NCHANNEL-FDMS5672" x="162.5" y="131" locked="yes"/>
-<element name="U3" library="simbits" package="WB-SOP5" value="FOD8321" x="116" y="101" smashed="yes">
-<attribute name="NAME" x="113.46" y="108.62" size="1.27" layer="25"/>
-</element>
-<element name="C15" library="rcl" package="C1206K" value="0.1uF" x="80.5" y="109.5"/>
-<element name="R10" library="rcl" package="R0603" value="330" x="114.5" y="92" rot="R90"/>
-<element name="Q9" library="simbits" package="POWERPACK5060-8" value="MOSFET-NCHANNEL-FDMS5672" x="36.5" y="131" locked="yes"/>
-<element name="U11" library="simbits" package="WB-SOP5" value="FOD8321" x="39" y="124.5" smashed="yes" rot="R90">
-<attribute name="NAME" x="31.38" y="121.96" size="1.27" layer="25" rot="R90"/>
-</element>
-<element name="C23" library="rcl" package="C1206K" value="0.1uF" x="66.5" y="109.5"/>
-<element name="R18" library="rcl" package="R0603" value="330" x="65" y="92" rot="R90"/>
-<element name="Q8" library="simbits" package="POWERPACK5060-8" value="MOSFET-NCHANNEL-FDMS5672" x="18.5" y="131" locked="yes"/>
-<element name="U10" library="simbits" package="WB-SOP5" value="FOD8321" x="21" y="124.5" smashed="yes" rot="R90">
-<attribute name="NAME" x="13.38" y="121.96" size="1.27" layer="26" rot="MR270"/>
-</element>
-<element name="C22" library="rcl" package="C1206K" value="0.1uF" x="59.5" y="109.5"/>
-<element name="R17" library="rcl" package="R0603" value="330" x="58" y="92" rot="R90"/>
 <element name="R9" library="rcl" package="R0603" value="10k" x="96.52" y="73.49"/>
-<element name="K8" library="simbits" package="LITE-TRAP-CONNECTOR-2" value="M02-MOLEX-104188-0210" x="159.5" y="167.5" locked="yes" smashed="yes" rot="R270">
-<attribute name="NAME" x="164.15" y="173.4" size="1.27" layer="25" rot="R270"/>
-</element>
-<element name="K16" library="simbits" package="LITE-TRAP-CONNECTOR-2" value="M02-MOLEX-104188-0210" x="33.5" y="167.5" locked="yes" smashed="yes" rot="R270">
-<attribute name="NAME" x="38.15" y="173.4" size="1.27" layer="25" rot="R270"/>
-</element>
-<element name="K15" library="simbits" package="LITE-TRAP-CONNECTOR-2" value="M02-MOLEX-104188-0210" x="15.5" y="167.5" locked="yes" smashed="yes" rot="R270">
-<attribute name="NAME" x="20.15" y="173.4" size="1.27" layer="25" rot="R270"/>
-</element>
 <element name="C33" library="rcl" package="C0603K" value="0.1uF" x="23.75" y="26.25"/>
 <element name="C14" library="rcl" package="C0603K" value="0.1uF" x="148.75" y="60.75" rot="R270"/>
 <element name="U12" library="simbits" package="TSSOP28" value="" x="23.75" y="20.25" rot="R270"/>
@@ -3032,129 +2852,6 @@ design rules under a new name.
 <element name="Y2" library="SparkFun-FreqCtrl" package="CRYSTAL-32KHZ-SMD_EPSON_MC146" value="32.768kHz" x="142.6" y="54.8" rot="R270"/>
 <element name="BAT1" library="simbits" package="79528211" value="" x="163.4" y="61" rot="R90">
 <attribute name="DIGIKEY" value="BK-912-CT-ND" x="175.7" y="61" size="1.778" layer="27" rot="R90" display="off"/>
-</element>
-<element name="C24" library="Panasonic-EEEFK_EEEFP" package="CAPAE1700X1700N" value="100UF" x="159.5" y="147.5" locked="yes" rot="R270">
-<attribute name="PACKAGE" value="CASE-J16" x="159.5" y="147.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VOLTAGERATING" value="100V" x="159.5" y="147.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="OC_NEWARK" value="53W3690" x="159.5" y="147.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="SUPPLIER" value="PANASONIC" x="159.5" y="147.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="TOLERANCE" value="±20 %" x="159.5" y="147.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="EEE-FK2A101AM" x="159.5" y="147.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="OC_FARNELL" value="2284678  " x="159.5" y="147.5" size="1.778" layer="27" rot="R270" display="off"/>
-</element>
-<element name="Q2" library="simbits" package="POWERPACK5060-8" value="MOSFET-NCHANNEL-FDMS5672" x="144.5" y="131" locked="yes"/>
-<element name="U4" library="simbits" package="WB-SOP5" value="FOD8321" x="108.5" y="101" smashed="yes">
-<attribute name="NAME" x="105.96" y="108.62" size="1.27" layer="25"/>
-</element>
-<element name="C16" library="rcl" package="C1206K" value="0.1uF" x="87.5" y="109.5"/>
-<element name="R11" library="rcl" package="R0603" value="330" x="107" y="92" rot="R90"/>
-<element name="K9" library="simbits" package="LITE-TRAP-CONNECTOR-2" value="M02-MOLEX-104188-0210" x="141.5" y="167.5" locked="yes" rot="R270"/>
-<element name="C25" library="Panasonic-EEEFK_EEEFP" package="CAPAE1700X1700N" value="100UF" x="141.5" y="147.5" locked="yes" rot="R270">
-<attribute name="PACKAGE" value="CASE-J16" x="116.5" y="175.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VOLTAGERATING" value="100V" x="116.5" y="175.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="OC_NEWARK" value="53W3690" x="116.5" y="175.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="SUPPLIER" value="PANASONIC" x="116.5" y="175.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="TOLERANCE" value="±20 %" x="116.5" y="175.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="EEE-FK2A101AM" x="116.5" y="175.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="OC_FARNELL" value="2284678  " x="116.5" y="175.5" size="1.778" layer="27" rot="R270" display="off"/>
-</element>
-<element name="Q3" library="simbits" package="POWERPACK5060-8" value="MOSFET-NCHANNEL-FDMS5672" x="126.5" y="131" locked="yes"/>
-<element name="U5" library="simbits" package="WB-SOP5" value="FOD8321" x="101" y="101" smashed="yes">
-<attribute name="NAME" x="98.46" y="108.62" size="1.27" layer="25"/>
-</element>
-<element name="C17" library="rcl" package="C1206K" value="0.1uF" x="94.5" y="109.5"/>
-<element name="R12" library="rcl" package="R0603" value="330" x="99.5" y="92" rot="R90"/>
-<element name="K10" library="simbits" package="LITE-TRAP-CONNECTOR-2" value="M02-MOLEX-104188-0210" x="123.5" y="167.5" locked="yes" rot="R270"/>
-<element name="C26" library="Panasonic-EEEFK_EEEFP" package="CAPAE1700X1700N" value="100UF" x="123.5" y="147.5" locked="yes" rot="R270">
-<attribute name="PACKAGE" value="CASE-J16" x="98.5" y="175.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VOLTAGERATING" value="100V" x="98.5" y="175.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="OC_NEWARK" value="53W3690" x="98.5" y="175.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="SUPPLIER" value="PANASONIC" x="98.5" y="175.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="TOLERANCE" value="±20 %" x="98.5" y="175.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="EEE-FK2A101AM" x="98.5" y="175.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="OC_FARNELL" value="2284678  " x="98.5" y="175.5" size="1.778" layer="27" rot="R270" display="off"/>
-</element>
-<element name="Q4" library="simbits" package="POWERPACK5060-8" value="MOSFET-NCHANNEL-FDMS5672" x="108.5" y="131" locked="yes"/>
-<element name="U6" library="simbits" package="WB-SOP5" value="FOD8321" x="94.5" y="101" smashed="yes">
-<attribute name="NAME" x="91.96" y="108.62" size="1.27" layer="25"/>
-</element>
-<element name="C18" library="rcl" package="C1206K" value="0.1uF" x="116" y="109.5"/>
-<element name="R13" library="rcl" package="R0603" value="330" x="93" y="92" rot="R90"/>
-<element name="K11" library="simbits" package="LITE-TRAP-CONNECTOR-2" value="M02-MOLEX-104188-0210" x="105.5" y="167.5" locked="yes" rot="R270"/>
-<element name="C27" library="Panasonic-EEEFK_EEEFP" package="CAPAE1700X1700N" value="100UF" x="105.5" y="147.5" locked="yes" rot="R270">
-<attribute name="PACKAGE" value="CASE-J16" x="80.5" y="175.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VOLTAGERATING" value="100V" x="80.5" y="175.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="OC_NEWARK" value="53W3690" x="80.5" y="175.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="SUPPLIER" value="PANASONIC" x="80.5" y="175.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="TOLERANCE" value="±20 %" x="80.5" y="175.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="EEE-FK2A101AM" x="80.5" y="175.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="OC_FARNELL" value="2284678  " x="80.5" y="175.5" size="1.778" layer="27" rot="R270" display="off"/>
-</element>
-<element name="Q5" library="simbits" package="POWERPACK5060-8" value="MOSFET-NCHANNEL-FDMS5672" x="90.5" y="131" locked="yes"/>
-<element name="U7" library="simbits" package="WB-SOP5" value="FOD8321" x="87.5" y="101" smashed="yes">
-<attribute name="NAME" x="84.96" y="108.62" size="1.27" layer="25"/>
-</element>
-<element name="C19" library="rcl" package="C1206K" value="0.1uF" x="73.5" y="109.5"/>
-<element name="R14" library="rcl" package="R0603" value="330" x="86" y="92" rot="R90"/>
-<element name="K12" library="simbits" package="LITE-TRAP-CONNECTOR-2" value="M02-MOLEX-104188-0210" x="87.5" y="167.5" locked="yes" rot="R270"/>
-<element name="C28" library="Panasonic-EEEFK_EEEFP" package="CAPAE1700X1700N" value="100UF" x="87.5" y="147.5" locked="yes" rot="R270">
-<attribute name="PACKAGE" value="CASE-J16" x="62.5" y="175.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VOLTAGERATING" value="100V" x="62.5" y="175.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="OC_NEWARK" value="53W3690" x="62.5" y="175.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="SUPPLIER" value="PANASONIC" x="62.5" y="175.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="TOLERANCE" value="±20 %" x="62.5" y="175.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="EEE-FK2A101AM" x="62.5" y="175.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="OC_FARNELL" value="2284678  " x="62.5" y="175.5" size="1.778" layer="27" rot="R270" display="off"/>
-</element>
-<element name="Q6" library="simbits" package="POWERPACK5060-8" value="MOSFET-NCHANNEL-FDMS5672" x="72.5" y="131" locked="yes"/>
-<element name="U8" library="simbits" package="WB-SOP5" value="FOD8321" x="80.5" y="101" smashed="yes">
-<attribute name="NAME" x="77.96" y="108.62" size="1.27" layer="25"/>
-</element>
-<element name="C20" library="rcl" package="C1206K" value="0.1uF" x="101" y="109.5"/>
-<element name="R15" library="rcl" package="R0603" value="330" x="79" y="92" rot="R90"/>
-<element name="K13" library="simbits" package="LITE-TRAP-CONNECTOR-2" value="M02-MOLEX-104188-0210" x="69.5" y="167.5" locked="yes" rot="R270"/>
-<element name="C29" library="Panasonic-EEEFK_EEEFP" package="CAPAE1700X1700N" value="100UF" x="69.5" y="147.5" locked="yes" rot="R270">
-<attribute name="PACKAGE" value="CASE-J16" x="44.5" y="175.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VOLTAGERATING" value="100V" x="44.5" y="175.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="OC_NEWARK" value="53W3690" x="44.5" y="175.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="SUPPLIER" value="PANASONIC" x="44.5" y="175.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="TOLERANCE" value="±20 %" x="44.5" y="175.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="EEE-FK2A101AM" x="44.5" y="175.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="OC_FARNELL" value="2284678  " x="44.5" y="175.5" size="1.778" layer="27" rot="R270" display="off"/>
-</element>
-<element name="Q7" library="simbits" package="POWERPACK5060-8" value="MOSFET-NCHANNEL-FDMS5672" x="54.5" y="131" locked="yes"/>
-<element name="U9" library="simbits" package="WB-SOP5" value="FOD8321" x="73.5" y="101" smashed="yes">
-<attribute name="NAME" x="70.96" y="108.62" size="1.27" layer="25"/>
-</element>
-<element name="C21" library="rcl" package="C1206K" value="0.1uF" x="108.5" y="109.5"/>
-<element name="R16" library="rcl" package="R0603" value="330" x="72" y="92" rot="R90"/>
-<element name="K14" library="simbits" package="LITE-TRAP-CONNECTOR-2" value="M02-MOLEX-104188-0210" x="51.5" y="167.5" locked="yes" rot="R270"/>
-<element name="C30" library="Panasonic-EEEFK_EEEFP" package="CAPAE1700X1700N" value="100UF" x="51.5" y="147.5" locked="yes" rot="R270">
-<attribute name="PACKAGE" value="CASE-J16" x="26.5" y="175.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VOLTAGERATING" value="100V" x="26.5" y="175.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="OC_NEWARK" value="53W3690" x="26.5" y="175.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="SUPPLIER" value="PANASONIC" x="26.5" y="175.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="TOLERANCE" value="±20 %" x="26.5" y="175.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="EEE-FK2A101AM" x="26.5" y="175.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="OC_FARNELL" value="2284678  " x="26.5" y="175.5" size="1.778" layer="27" rot="R270" display="off"/>
-</element>
-<element name="C31" library="Panasonic-EEEFK_EEEFP" package="CAPAE1700X1700N" value="100UF" x="15.5" y="147.5" locked="yes" rot="R270">
-<attribute name="PACKAGE" value="CASE-J16" x="15.5" y="147.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VOLTAGERATING" value="100V" x="15.5" y="147.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="OC_NEWARK" value="53W3690" x="15.5" y="147.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="SUPPLIER" value="PANASONIC" x="15.5" y="147.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="TOLERANCE" value="±20 %" x="15.5" y="147.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="EEE-FK2A101AM" x="15.5" y="147.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="OC_FARNELL" value="2284678  " x="15.5" y="147.5" size="1.778" layer="27" rot="R270" display="off"/>
-</element>
-<element name="C32" library="Panasonic-EEEFK_EEEFP" package="CAPAE1700X1700N" value="100UF" x="33.5" y="147.5" locked="yes" rot="R270">
-<attribute name="PACKAGE" value="CASE-J16" x="33.5" y="147.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VOLTAGERATING" value="100V" x="33.5" y="147.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="OC_NEWARK" value="53W3690" x="33.5" y="147.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="SUPPLIER" value="PANASONIC" x="33.5" y="147.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="TOLERANCE" value="±20 %" x="33.5" y="147.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="EEE-FK2A101AM" x="33.5" y="147.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="OC_FARNELL" value="2284678  " x="33.5" y="147.5" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="IC1" library="atmel" package="TQFP44" value="ATMEGA644A" x="106" y="48" rot="R90">
 <attribute name="OC_NEWARK" value="58M3748" x="41" y="30" size="1.778" layer="27" rot="R90" display="off"/>
@@ -3283,18 +2980,6 @@ design rules under a new name.
 <element name="K3" library="Wurth_Elektronik_Electromechanic_Terminal_Blocks_Connectors_rev15d" package="691322310002" value="691322310002" x="8" y="80" locked="yes" smashed="yes" rot="R90">
 <attribute name="NAME" x="3.8091" y="78.7088" size="1.27" layer="25" rot="R90"/>
 </element>
-<element name="K1" library="Wurth_Elektronik_Electromechanic_Terminal_Blocks_Connectors_rev15d" package="691313710002" value="691313710002" x="10" y="95" locked="yes" smashed="yes" rot="R270">
-<attribute name="NAME" x="0.8085" y="98.6992" size="1.27" layer="25" rot="R270"/>
-</element>
-<element name="C1" library="Panasonic-EEEFK_EEEFP" package="CAPAE1900X1700N" value="220UF" x="23" y="97.5" rot="R270">
-<attribute name="PACKAGE" value="CASE-K16" x="-1" y="126.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VOLTAGERATING" value="100V" x="-1" y="126.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="OC_NEWARK" value="53W3691" x="-1" y="126.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="SUPPLIER" value="PANASONIC" x="-1" y="126.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="TOLERANCE" value="±20 %" x="-1" y="126.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="EEE-FK2A221AM" x="-1" y="126.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="OC_FARNELL" value="2284670" x="-1" y="126.5" size="1.778" layer="27" rot="R270" display="off"/>
-</element>
 <element name="C2" library="Panasonic-EEEFK_EEEFP" package="CAPAE830X1050N" value="220UF" x="25" y="78" rot="R90">
 <attribute name="PACKAGE" value="CASE-F" x="40" y="78" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VOLTAGERATING" value="35V" x="40" y="78" size="1.778" layer="27" rot="R90" display="off"/>
@@ -3313,19 +2998,8 @@ design rules under a new name.
 <attribute name="MPN" value="EEE-FP1V221AP" x="45" y="60" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="OC_FARNELL" value="1539514  " x="45" y="60" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="C3" library="Panasonic-EEEFK_EEEFP" package="CAPAE1900X1700N" value="220UF" x="43" y="97.5" rot="R270">
-<attribute name="PACKAGE" value="CASE-K16" x="-2" y="133.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VOLTAGERATING" value="100V" x="-2" y="133.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="OC_NEWARK" value="53W3691" x="-2" y="133.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="SUPPLIER" value="PANASONIC" x="-2" y="133.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="TOLERANCE" value="±20 %" x="-2" y="133.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="EEE-FK2A221AM" x="-2" y="133.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="OC_FARNELL" value="2284679  " x="-2" y="133.5" size="1.778" layer="27" rot="R270" display="off"/>
-</element>
 <element name="R2" library="rcl" package="R0603" value="1.2K" x="238.5" y="63"/>
-<element name="R1" library="rcl" package="R0603" value="2K4" x="244" y="65.5"/>
 <element name="C6" library="rcl" package="C0603K" value="0.1uF" x="250.5" y="61.5"/>
-<element name="C5" library="rcl" package="C0603K" value="0.1uF" x="8.5" y="116.5"/>
 <element name="U15" library="simbits" package="SOT95P240X110-3N" value="DMP2215L-7" x="148.5" y="30.5">
 <attribute name="PACKAGE" value="SOT-23-3" x="148.5" y="30.5" size="1.778" layer="27" display="off"/>
 <attribute name="OC_NEWARK" value="25R4539" x="148.5" y="30.5" size="1.778" layer="27" display="off"/>
@@ -3442,9 +3116,7 @@ design rules under a new name.
 </element>
 <element name="IC3" library="45xx" package="SO16" value="4511D" x="126" y="33"/>
 <element name="C80" library="rcl" package="C0603K" value="0.1uF" x="186" y="26"/>
-<element name="LED1" library="adafruit" package="CHIPLED_0603" value="" x="32.5" y="80.75"/>
 <element name="LED2" library="adafruit" package="CHIPLED_0603" value="" x="34.5" y="70"/>
-<element name="K2" library="Wurth_Elektronik_Electromechanic_Terminal_Blocks_Connectors_rev15d" package="691313710002" value="691313710002" x="164.5" y="100" locked="yes" rot="R90"/>
 <element name="K4" library="Wurth_Elektronik_Electromechanic_Terminal_Blocks_Connectors_rev15d" package="691322310002" value="691322310002" x="167" y="76.5" locked="yes" rot="R270"/>
 <element name="H6" library="simbits" package="2,0" value="MOUNT-HOLE2.0" x="171.5" y="171.5" locked="yes"/>
 <element name="H7" library="simbits" package="2,0" value="MOUNT-HOLE2.0" x="60.5" y="171.5" locked="yes"/>
@@ -3571,24 +3243,10 @@ design rules under a new name.
 <element name="C91" library="rcl" package="C0603K" value="1uF" x="160.5" y="6" locked="yes" rot="R90"/>
 </elements>
 <signals>
-<signal name="N$10">
-<contactref element="U3" pad="1"/>
-<contactref element="R10" pad="2"/>
-<wire x1="114.5" y1="92.85" x2="114.73" y2="95.65" width="0" layer="19" extent="1-1"/>
-</signal>
 <signal name="PWM_SEG1">
-<contactref element="R10" pad="1"/>
 <contactref element="U2" pad="6"/>
-<wire x1="88.475" y1="83.3178" x2="114.5" y2="91.15" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="VO">
-<contactref element="U3" pad="5"/>
-<contactref element="Q1" pad="G4"/>
-<wire x1="159.825" y1="129.095" x2="116" y2="106.35" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GND">
-<contactref element="U3" pad="3"/>
-<contactref element="C15" pad="2"/>
 <contactref element="U2" pad="14"/>
 <contactref element="U2" pad="5"/>
 <contactref element="U2" pad="4"/>
@@ -3597,25 +3255,9 @@ design rules under a new name.
 <contactref element="U2" pad="24"/>
 <contactref element="U2" pad="3"/>
 <contactref element="U2" pad="1"/>
-<contactref element="U11" pad="3"/>
-<contactref element="C23" pad="2"/>
-<contactref element="U10" pad="3"/>
-<contactref element="C22" pad="2"/>
 <contactref element="C14" pad="2"/>
 <contactref element="U1" pad="4"/>
 <contactref element="BAT1" pad="-"/>
-<contactref element="U4" pad="3"/>
-<contactref element="C16" pad="2"/>
-<contactref element="U5" pad="3"/>
-<contactref element="C17" pad="2"/>
-<contactref element="U6" pad="3"/>
-<contactref element="C18" pad="2"/>
-<contactref element="U7" pad="3"/>
-<contactref element="C19" pad="2"/>
-<contactref element="U8" pad="3"/>
-<contactref element="C20" pad="2"/>
-<contactref element="U9" pad="3"/>
-<contactref element="C21" pad="2"/>
 <contactref element="IC1" pad="18"/>
 <contactref element="IC1" pad="6"/>
 <contactref element="IC1" pad="28"/>
@@ -3684,15 +3326,6 @@ design rules under a new name.
 <contactref element="H1" pad="B2,2"/>
 <contactref element="K3" pad="2"/>
 <contactref element="K4" pad="1"/>
-<wire x1="60.77" y1="109.27" x2="61" y2="109.5" width="0.3048" layer="1"/>
-<wire x1="67.77" y1="109.27" x2="68" y2="109.5" width="0.3048" layer="1"/>
-<wire x1="74.77" y1="109.27" x2="75" y2="109.5" width="0.3048" layer="1"/>
-<wire x1="81.77" y1="109.27" x2="82" y2="109.5" width="0.3048" layer="1"/>
-<wire x1="88.77" y1="109.27" x2="89" y2="109.5" width="0.3048" layer="1"/>
-<wire x1="95.77" y1="109.27" x2="96" y2="109.5" width="0.3048" layer="1"/>
-<wire x1="102.27" y1="109.27" x2="102.5" y2="109.5" width="0.3048" layer="1"/>
-<wire x1="109.77" y1="109.27" x2="110" y2="109.5" width="0.3048" layer="1"/>
-<wire x1="117.27" y1="109.27" x2="117.5" y2="109.5" width="0.3048" layer="1"/>
 <via x="9.5" y="7" extent="1-16" drill="0.3" diameter="0.5"/>
 <via x="16" y="7" extent="1-16" drill="0.3" diameter="0.5"/>
 <via x="33.25" y="19.75" extent="1-16" drill="0.3" diameter="0.5"/>
@@ -3832,7 +3465,7 @@ design rules under a new name.
 <wire x1="163.4" y1="67" x2="167" y2="80.31" width="0" layer="19" extent="1-1"/>
 <wire x1="148.75" y1="59.875" x2="163.4" y2="67" width="0" layer="19" extent="1-1"/>
 <wire x1="146.3" y1="61.405" x2="148.75" y2="59.875" width="0" layer="19" extent="1-1"/>
-<wire x1="156.5" y1="34.375" x2="146.3" y2="61.405" width="0" layer="19" extent="1-1"/>
+<wire x1="156.5" y1="34.375" x2="148.75" y2="59.875" width="0" layer="19" extent="1-1"/>
 <wire x1="164.5" y1="30.97" x2="156.5" y2="34.375" width="0" layer="19" extent="1-1"/>
 <wire x1="164.5" y1="28.93" x2="164.5" y2="30.97" width="0" layer="19" extent="1-1"/>
 <wire x1="167.04" y1="31.99" x2="164.5" y2="30.97" width="0" layer="19" extent="1-1"/>
@@ -3965,24 +3598,9 @@ design rules under a new name.
 <wire x1="91.725" y1="83.3178" x2="91.075" y2="83.3178" width="0" layer="19" extent="1-1"/>
 <wire x1="89.775" y1="77.4822" x2="89.775" y2="83.3178" width="0" layer="19" extent="1-1"/>
 <wire x1="89.125" y1="77.4822" x2="89.775" y2="77.4822" width="0" layer="19" extent="1-1"/>
-<wire x1="88.77" y1="95.65" x2="89.125" y2="83.3178" width="0" layer="19" extent="1-1"/>
-<wire x1="95.77" y1="95.65" x2="88.77" y2="95.65" width="0" layer="19" extent="1-1"/>
-<wire x1="102.27" y1="95.65" x2="95.77" y2="95.65" width="0" layer="19" extent="1-1"/>
-<wire x1="81.77" y1="95.65" x2="88.77" y2="95.65" width="0" layer="19" extent="1-1"/>
-<wire x1="74.77" y1="95.65" x2="81.77" y2="95.65" width="0" layer="19" extent="1-1"/>
-<wire x1="109.77" y1="95.65" x2="102.27" y2="95.65" width="0" layer="19" extent="1-1"/>
-<wire x1="117.27" y1="95.65" x2="109.77" y2="95.65" width="0" layer="19" extent="1-1"/>
-<wire x1="117.27" y1="109.27" x2="117.27" y2="95.65" width="0" layer="19" extent="1-1"/>
-<wire x1="110" y1="109.5" x2="117.27" y2="109.27" width="0" layer="19" extent="1-1"/>
-<wire x1="102.5" y1="109.5" x2="109.77" y2="109.27" width="0" layer="19" extent="1-1"/>
-<wire x1="96" y1="109.5" x2="102.27" y2="109.27" width="0" layer="19" extent="1-1"/>
-<wire x1="89" y1="109.5" x2="95.77" y2="109.27" width="0" layer="19" extent="1-1"/>
-<wire x1="82" y1="109.5" x2="88.77" y2="109.27" width="0" layer="19" extent="1-1"/>
-<wire x1="75" y1="109.5" x2="81.77" y2="109.27" width="0" layer="19" extent="1-1"/>
-<wire x1="68" y1="109.5" x2="74.77" y2="109.27" width="0" layer="19" extent="1-1"/>
-<wire x1="61" y1="109.5" x2="67.77" y2="109.27" width="0" layer="19" extent="1-1"/>
-<wire x1="44.35" y1="125.77" x2="61" y2="109.5" width="0" layer="19" extent="1-1"/>
-<wire x1="26.35" y1="125.77" x2="44.35" y2="125.77" width="0" layer="19" extent="1-1"/>
+<wire x1="60.08" y1="-31.46" x2="59.5" y2="8.125" width="0" layer="19" extent="1-1"/>
+<wire x1="57.54" y1="-31.46" x2="60.08" y2="-31.46" width="0" layer="19" extent="1-1"/>
+<wire x1="55" y1="-31.46" x2="57.54" y2="-31.46" width="0" layer="19" extent="1-1"/>
 <wire x1="235" y1="35.625" x2="186.875" y2="26" width="0" layer="19" extent="1-1"/>
 <wire x1="235" y1="41.625" x2="235" y2="35.625" width="0" layer="19" extent="1-1"/>
 <wire x1="235" y1="49.375" x2="235" y2="41.625" width="0" layer="19" extent="1-1"/>
@@ -3997,167 +3615,21 @@ design rules under a new name.
 <wire x1="-19.875" y1="-59" x2="-20" y2="-54" width="0" layer="19" extent="1-1"/>
 <wire x1="-20" y1="-64" x2="-19.875" y2="-59" width="0" layer="19" extent="1-1"/>
 <wire x1="-19.85" y1="-99" x2="-20" y2="-64" width="0" layer="19" extent="1-1"/>
-<wire x1="55" y1="-31.46" x2="-19.85" y2="-99" width="0" layer="19" extent="1-1"/>
-<wire x1="57.54" y1="-31.46" x2="55" y2="-31.46" width="0" layer="19" extent="1-1"/>
-<wire x1="60.08" y1="-31.46" x2="57.54" y2="-31.46" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="+15V">
-<contactref element="U3" pad="6"/>
-<contactref element="C15" pad="1"/>
-<contactref element="C23" pad="1"/>
-<contactref element="U11" pad="6"/>
-<contactref element="C22" pad="1"/>
-<contactref element="U10" pad="6"/>
-<contactref element="C16" pad="1"/>
-<contactref element="U4" pad="6"/>
-<contactref element="C17" pad="1"/>
-<contactref element="U5" pad="6"/>
-<contactref element="C18" pad="1"/>
-<contactref element="U6" pad="6"/>
-<contactref element="C19" pad="1"/>
-<contactref element="U7" pad="6"/>
-<contactref element="C20" pad="1"/>
-<contactref element="U8" pad="6"/>
-<contactref element="C21" pad="1"/>
-<contactref element="U9" pad="6"/>
 <contactref element="C2" pad="1"/>
 <contactref element="R2" pad="2"/>
 <contactref element="C6" pad="2"/>
 <contactref element="K3" pad="1"/>
 <contactref element="K4" pad="2"/>
-<wire x1="15.65" y1="123.23" x2="58.23" y2="109.27" width="0.3048" layer="1"/>
-<wire x1="58.23" y1="109.27" x2="58" y2="109.5" width="0.3048" layer="1"/>
-<wire x1="33.65" y1="123.23" x2="65.23" y2="109.27" width="0.3048" layer="1"/>
-<wire x1="65.23" y1="109.27" x2="65" y2="109.5" width="0.3048" layer="1"/>
-<wire x1="72.23" y1="106.35" x2="72.23" y2="109.27" width="0.3048" layer="1"/>
-<wire x1="72.23" y1="109.27" x2="72" y2="109.5" width="0.3048" layer="1"/>
-<wire x1="79.23" y1="106.35" x2="79.23" y2="109.27" width="0.3048" layer="1"/>
-<wire x1="79.23" y1="109.27" x2="79" y2="109.5" width="0.3048" layer="1"/>
-<wire x1="86.23" y1="106.35" x2="86.23" y2="109.27" width="0.3048" layer="1"/>
-<wire x1="86.23" y1="109.27" x2="86" y2="109.5" width="0.3048" layer="1"/>
-<wire x1="85.5" y1="110" x2="86" y2="109.5" width="0.3048" layer="1"/>
-<wire x1="93.23" y1="106.35" x2="93.23" y2="109.27" width="0.3048" layer="1"/>
-<wire x1="93.23" y1="109.27" x2="93" y2="109.5" width="0.3048" layer="1"/>
-<wire x1="99.73" y1="106.35" x2="99.73" y2="109.27" width="0.3048" layer="1"/>
-<wire x1="99.73" y1="109.27" x2="99.5" y2="109.5" width="0.3048" layer="1"/>
-<wire x1="107.23" y1="106.35" x2="107.23" y2="109.27" width="0.3048" layer="1"/>
-<wire x1="107.23" y1="109.27" x2="107" y2="109.5" width="0.3048" layer="1"/>
-<wire x1="106.5" y1="110" x2="107" y2="109.5" width="0.3048" layer="1"/>
-<wire x1="114.73" y1="106.35" x2="114.73" y2="109.27" width="0.3048" layer="1"/>
-<wire x1="114.73" y1="109.27" x2="114.5" y2="109.5" width="0.3048" layer="1"/>
 <contactref element="U18" pad="1"/>
 <contactref element="C4" pad="1"/>
-<wire x1="114.73" y1="106.35" x2="167" y2="76.5" width="0" layer="19" extent="1-1"/>
-<wire x1="107.23" y1="109.27" x2="114.5" y2="109.5" width="0" layer="19" extent="1-1"/>
-<wire x1="99.73" y1="109.27" x2="106.5" y2="110" width="0" layer="19" extent="1-1"/>
-<wire x1="93.23" y1="109.27" x2="99.5" y2="109.5" width="0" layer="19" extent="1-1"/>
-<wire x1="86.23" y1="109.27" x2="93" y2="109.5" width="0" layer="19" extent="1-1"/>
-<wire x1="79.23" y1="109.27" x2="85.5" y2="110" width="0" layer="19" extent="1-1"/>
-<wire x1="72.23" y1="109.27" x2="79" y2="109.5" width="0" layer="19" extent="1-1"/>
-<wire x1="65.23" y1="109.27" x2="72" y2="109.5" width="0" layer="19" extent="1-1"/>
-<wire x1="58.23" y1="109.27" x2="65" y2="109.5" width="0" layer="19" extent="1-1"/>
-<wire x1="42.46" y1="65.725" x2="58.23" y2="109.27" width="0" layer="19" extent="1-1"/>
+<wire x1="239.35" y1="63" x2="167" y2="76.5" width="0" layer="19" extent="1-1"/>
+<wire x1="251.375" y1="61.5" x2="239.35" y2="63" width="0" layer="19" extent="1-1"/>
+<wire x1="42.46" y1="65.725" x2="167" y2="76.5" width="0" layer="19" extent="1-1"/>
 <wire x1="25" y1="74.8758" x2="42.46" y2="65.725" width="0" layer="19" extent="1-1"/>
 <wire x1="15" y1="74.8758" x2="25" y2="74.8758" width="0" layer="19" extent="1-1"/>
 <wire x1="8" y1="76.19" x2="15" y2="74.8758" width="0" layer="19" extent="1-1"/>
-<wire x1="239.35" y1="63" x2="167" y2="76.5" width="0" layer="19" extent="1-1"/>
-<wire x1="251.375" y1="61.5" x2="239.35" y2="63" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="AGND">
-<contactref element="Q1" pad="S2"/>
-<contactref element="Q1" pad="S3"/>
-<contactref element="Q1" pad="S1"/>
-<contactref element="Q9" pad="S2"/>
-<contactref element="Q9" pad="S3"/>
-<contactref element="Q9" pad="S1"/>
-<contactref element="Q8" pad="S2"/>
-<contactref element="Q8" pad="S3"/>
-<contactref element="Q8" pad="S1"/>
-<contactref element="C24" pad="2"/>
-<contactref element="Q2" pad="S2"/>
-<contactref element="Q2" pad="S3"/>
-<contactref element="Q2" pad="S1"/>
-<contactref element="C25" pad="2"/>
-<contactref element="Q3" pad="S2"/>
-<contactref element="Q3" pad="S3"/>
-<contactref element="Q3" pad="S1"/>
-<contactref element="C26" pad="2"/>
-<contactref element="Q4" pad="S2"/>
-<contactref element="Q4" pad="S3"/>
-<contactref element="Q4" pad="S1"/>
-<contactref element="C27" pad="2"/>
-<contactref element="Q5" pad="S2"/>
-<contactref element="Q5" pad="S3"/>
-<contactref element="Q5" pad="S1"/>
-<contactref element="C28" pad="2"/>
-<contactref element="Q6" pad="S2"/>
-<contactref element="Q6" pad="S3"/>
-<contactref element="Q6" pad="S1"/>
-<contactref element="C29" pad="2"/>
-<contactref element="Q7" pad="S2"/>
-<contactref element="Q7" pad="S3"/>
-<contactref element="Q7" pad="S1"/>
-<contactref element="C30" pad="2"/>
-<contactref element="C31" pad="2"/>
-<contactref element="C32" pad="2"/>
-<contactref element="C1" pad="2"/>
-<contactref element="C3" pad="2"/>
-<contactref element="C5" pad="1"/>
-<contactref element="K1" pad="2"/>
-<contactref element="K2" pad="1"/>
-<contactref element="LED1" pad="C"/>
-<contactref element="U3" pad="4"/>
-<contactref element="U4" pad="4"/>
-<contactref element="U5" pad="4"/>
-<contactref element="U6" pad="4"/>
-<contactref element="U7" pad="4"/>
-<contactref element="U8" pad="4"/>
-<contactref element="U9" pad="4"/>
-<contactref element="U10" pad="4"/>
-<contactref element="U11" pad="4"/>
-<polygon width="0.254" layer="1" isolate="1.016" thermals="no" rank="6">
-<vertex x="-0.5" y="175.5"/>
-<vertex x="176.5" y="175"/>
-<vertex x="176" y="92"/>
-<vertex x="53" y="92"/>
-<vertex x="53" y="86.5"/>
-<vertex x="13.5" y="86.5"/>
-<vertex x="13.5" y="91.5"/>
-<vertex x="-1" y="91.5"/>
-<vertex x="-1" y="175.5"/>
-</polygon>
-<wire x1="43" y1="90.5404" x2="32.5" y2="81.5" width="0" layer="19" extent="1-1"/>
-<wire x1="33.65" y1="125.77" x2="15.65" y2="125.77" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$1">
-<contactref element="U11" pad="1"/>
-<contactref element="R18" pad="2"/>
-<wire x1="65" y1="92.85" x2="44.35" y2="123.23" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="VO7">
-<contactref element="U11" pad="5"/>
-<contactref element="Q9" pad="G4"/>
-<wire x1="33.65" y1="124.5" x2="33.825" y2="129.095" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$2">
-<contactref element="U10" pad="1"/>
-<contactref element="R17" pad="2"/>
-<wire x1="58" y1="92.85" x2="26.35" y2="123.23" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="VO8">
-<contactref element="U10" pad="5"/>
-<contactref element="Q8" pad="G4"/>
-<wire x1="15.65" y1="124.5" x2="15.825" y2="129.095" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="PWM_DOT1">
-<contactref element="U2" pad="13"/>
-<contactref element="R17" pad="1"/>
-<wire x1="58" y1="91.15" x2="83.925" y2="83.3178" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="PWM_DOT2">
-<contactref element="U2" pad="15"/>
-<contactref element="R18" pad="1"/>
-<wire x1="65" y1="91.15" x2="83.275" y2="77.4822" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$5">
 <contactref element="U2" pad="23"/>
@@ -4247,240 +3719,7 @@ design rules under a new name.
 <wire x1="69" y1="-19.15" x2="74" y2="-19.15" width="0" layer="19" extent="1-1"/>
 <wire x1="-18.125" y1="-59" x2="69" y2="-19.15" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N$3">
-<contactref element="K8" pad="1A"/>
-<contactref element="K8" pad="1B"/>
-<contactref element="Q1" pad="D7"/>
-<contactref element="Q1" pad="D6"/>
-<contactref element="Q1" pad="D8"/>
-<contactref element="Q1" pad="D5"/>
-<contactref element="Q1" pad="DPAD"/>
-<contactref element="C24" pad="1"/>
-<polygon width="0.254" layer="1" isolate="1.016" thermals="no" rank="5">
-<vertex x="152.75" y="174.75"/>
-<vertex x="152.75" y="148.75"/>
-<vertex x="161" y="148.75"/>
-<vertex x="161" y="155.5"/>
-<vertex x="161" y="156.5"/>
-<vertex x="159.5" y="158"/>
-<vertex x="158.5" y="159"/>
-<vertex x="158.5" y="174.75"/>
-</polygon>
-<polygon width="0.254" layer="1" isolate="1.016" thermals="no" rank="5">
-<vertex x="161.5" y="123.5"/>
-<vertex x="161.5" y="148.5"/>
-<vertex x="161" y="149"/>
-<vertex x="161.1" y="153.66"/>
-<vertex x="168" y="153.66"/>
-<vertex x="168" y="123.5"/>
-</polygon>
-</signal>
 <signal name="+24V">
-<contactref element="K8" pad="2B"/>
-<contactref element="K8" pad="2A"/>
-<contactref element="K16" pad="2B"/>
-<contactref element="K16" pad="2A"/>
-<contactref element="K15" pad="2B"/>
-<contactref element="K15" pad="2A"/>
-<contactref element="K9" pad="2B"/>
-<contactref element="K9" pad="2A"/>
-<contactref element="K10" pad="2B"/>
-<contactref element="K10" pad="2A"/>
-<contactref element="K11" pad="2B"/>
-<contactref element="K11" pad="2A"/>
-<contactref element="K12" pad="2B"/>
-<contactref element="K12" pad="2A"/>
-<contactref element="K13" pad="2B"/>
-<contactref element="K13" pad="2A"/>
-<contactref element="K14" pad="2B"/>
-<contactref element="K14" pad="2A"/>
-<contactref element="C1" pad="1"/>
-<contactref element="C3" pad="1"/>
-<contactref element="R1" pad="2"/>
-<contactref element="C5" pad="2"/>
-<contactref element="K1" pad="1"/>
-<via x="22" y="165.5" extent="1-16" drill="2" diameter="3.81" shape="square"/>
-<via x="22" y="161.5" extent="1-16" drill="2" diameter="3.81" shape="square"/>
-<via x="40" y="165.5" extent="1-16" drill="2" diameter="3.81" shape="square"/>
-<via x="40" y="161.5" extent="1-16" drill="2" diameter="3.81" shape="square"/>
-<via x="58" y="165.5" extent="1-16" drill="2" diameter="3.81" shape="square"/>
-<via x="58" y="161.5" extent="1-16" drill="2" diameter="3.81" shape="square"/>
-<contactref element="K2" pad="2"/>
-<polygon width="0.254" layer="16" isolate="1.016">
-<vertex x="174.75" y="98.5"/>
-<vertex x="-1" y="98.5"/>
-<vertex x="-1.5" y="176.5"/>
-<vertex x="177" y="176.5"/>
-<vertex x="177.5" y="99.25"/>
-<vertex x="176.25" y="98.75"/>
-</polygon>
-<polygon width="0.254" layer="1" isolate="1.016" thermals="no">
-<vertex x="16.5" y="174"/>
-<vertex x="16.5" y="159.75"/>
-<vertex x="16.5" y="159.5"/>
-<vertex x="24" y="159.5"/>
-<vertex x="24" y="175.25"/>
-<vertex x="16.5" y="175.25"/>
-</polygon>
-<polygon width="0.254" layer="1" isolate="1.016" thermals="no">
-<vertex x="34.5" y="174"/>
-<vertex x="34.5" y="159.75"/>
-<vertex x="34.5" y="159.5"/>
-<vertex x="42" y="159.5"/>
-<vertex x="42" y="175.25"/>
-<vertex x="34.5" y="175.25"/>
-</polygon>
-<polygon width="0.254" layer="1" isolate="1.016" thermals="no" rank="6">
-<vertex x="52.5" y="175.25"/>
-<vertex x="52.5" y="159.5"/>
-<vertex x="56" y="159.5"/>
-<vertex x="56" y="155.5"/>
-<vertex x="60" y="155.5"/>
-<vertex x="60" y="175.25"/>
-</polygon>
-<polygon width="0.254" layer="1" isolate="1.016" thermals="no">
-<vertex x="70.5" y="174"/>
-<vertex x="70.5" y="159.75"/>
-<vertex x="70.5" y="159.5"/>
-<vertex x="78" y="159.5"/>
-<vertex x="78" y="175.25"/>
-<vertex x="70.5" y="175.25"/>
-</polygon>
-<polygon width="0.254" layer="1" isolate="1.016" thermals="no">
-<vertex x="88.5" y="174"/>
-<vertex x="88.5" y="159.75"/>
-<vertex x="88.5" y="159.5"/>
-<vertex x="96" y="159.5"/>
-<vertex x="96" y="175.25"/>
-<vertex x="88.5" y="175.25"/>
-</polygon>
-<polygon width="0.254" layer="1" isolate="1.016" thermals="no" rank="6">
-<vertex x="106.5" y="175.25"/>
-<vertex x="106.5" y="159.5"/>
-<vertex x="110" y="159.5"/>
-<vertex x="110" y="155.5"/>
-<vertex x="114" y="155.5"/>
-<vertex x="114" y="175.25"/>
-</polygon>
-<polygon width="0.254" layer="1" isolate="1.016" thermals="no">
-<vertex x="124.5" y="174"/>
-<vertex x="124.5" y="159.75"/>
-<vertex x="124.5" y="159.5"/>
-<vertex x="132" y="159.5"/>
-<vertex x="132" y="175.25"/>
-<vertex x="124.5" y="175.25"/>
-</polygon>
-<polygon width="0.254" layer="1" isolate="1.016" thermals="no">
-<vertex x="142.5" y="174"/>
-<vertex x="142.5" y="159.75"/>
-<vertex x="142.5" y="159.5"/>
-<vertex x="150" y="159.5"/>
-<vertex x="150" y="175.25"/>
-<vertex x="142.5" y="175.25"/>
-</polygon>
-<polygon width="0.254" layer="1" isolate="1.016" thermals="no">
-<vertex x="160.5" y="175.25"/>
-<vertex x="160.5" y="159.5"/>
-<vertex x="164" y="159.5"/>
-<vertex x="164" y="155.5"/>
-<vertex x="168" y="155.5"/>
-<vertex x="168" y="175.25"/>
-</polygon>
-<via x="166" y="165.5" extent="1-16" drill="2" diameter="3.81" shape="square"/>
-<via x="166" y="161.5" extent="1-16" drill="2" diameter="3.81" shape="square"/>
-<via x="148" y="165.5" extent="1-16" drill="2" diameter="3.81" shape="square"/>
-<via x="148" y="161.5" extent="1-16" drill="2" diameter="3.81" shape="square"/>
-<via x="130" y="165.5" extent="1-16" drill="2" diameter="3.81" shape="square"/>
-<via x="130" y="161.5" extent="1-16" drill="2" diameter="3.81" shape="square"/>
-<via x="112" y="165.5" extent="1-16" drill="2" diameter="3.81" shape="square"/>
-<via x="112" y="161.5" extent="1-16" drill="2" diameter="3.81" shape="square"/>
-<via x="94" y="165.5" extent="1-16" drill="2" diameter="3.81" shape="square"/>
-<via x="94" y="161.5" extent="1-16" drill="2" diameter="3.81" shape="square"/>
-<via x="76" y="165.5" extent="1-16" drill="2" diameter="3.81" shape="square"/>
-<via x="76" y="161.5" extent="1-16" drill="2" diameter="3.81" shape="square"/>
-<via x="22" y="169.5" extent="1-16" drill="2" diameter="3.81" shape="square"/>
-<via x="40" y="169.5" extent="1-16" drill="2" diameter="3.81" shape="square"/>
-<via x="58" y="157.5" extent="1-16" drill="2" diameter="3.81" shape="square"/>
-<via x="76" y="169.5" extent="1-16" drill="2" diameter="3.81" shape="square"/>
-<via x="94" y="169.5" extent="1-16" drill="2" diameter="3.81" shape="square"/>
-<via x="112" y="157.5" extent="1-16" drill="2" diameter="3.81" shape="square"/>
-<via x="130" y="169.5" extent="1-16" drill="2" diameter="3.81" shape="square"/>
-<via x="148" y="169.5" extent="1-16" drill="2" diameter="3.81" shape="square"/>
-<via x="166" y="157.5" extent="1-16" drill="2" diameter="3.81" shape="square"/>
-<via x="28.5" y="105.5" extent="1-16" drill="2" diameter="3.81" shape="square"/>
-<via x="33.5" y="105.5" extent="1-16" drill="2" diameter="3.81" shape="square"/>
-<via x="37.5" y="105.5" extent="1-16" drill="2" diameter="3.81" shape="square"/>
-<via x="28.5" y="101.5" extent="1-16" drill="2" diameter="3.81" shape="square"/>
-<via x="33.5" y="101.5" extent="1-16" drill="2" diameter="3.81" shape="square"/>
-<via x="37.5" y="101.5" extent="1-16" drill="2" diameter="3.81" shape="square"/>
-<via x="18.5" y="106" extent="1-16" drill="2" diameter="3.81" shape="square"/>
-<via x="18.5" y="102" extent="1-16" drill="2" diameter="3.81" shape="square"/>
-<via x="47" y="105.5" extent="1-16" drill="2" diameter="3.81" shape="square"/>
-<via x="51" y="105.5" extent="1-16" drill="2" diameter="3.81" shape="square"/>
-<via x="47" y="101.5" extent="1-16" drill="2" diameter="3.81" shape="square"/>
-<via x="51" y="101.5" extent="1-16" drill="2" diameter="3.81" shape="square"/>
-<via x="14.5" y="106" extent="1-16" drill="2" diameter="3.81" shape="square"/>
-<via x="10.5" y="106" extent="1-16" drill="2" diameter="3.81" shape="square"/>
-<wire x1="47" y1="105.5" x2="43" y2="104.4596" width="0" layer="19" extent="1-1"/>
-<wire x1="23" y1="104.4596" x2="18.5" y2="106" width="0" layer="19" extent="1-1"/>
-<wire x1="9.375" y1="116.5" x2="10.5" y2="106" width="0" layer="19" extent="1-1"/>
-<wire x1="244.85" y1="65.5" x2="164.5" y2="100" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$18">
-<contactref element="K15" pad="1A"/>
-<contactref element="K15" pad="1B"/>
-<contactref element="Q8" pad="D7"/>
-<contactref element="Q8" pad="D6"/>
-<contactref element="Q8" pad="D8"/>
-<contactref element="Q8" pad="D5"/>
-<contactref element="Q8" pad="DPAD"/>
-<contactref element="C31" pad="1"/>
-<polygon width="0.254" layer="1" isolate="1.016" thermals="no" rank="5">
-<vertex x="8.75" y="175"/>
-<vertex x="8.75" y="149"/>
-<vertex x="17" y="149"/>
-<vertex x="17" y="155.75"/>
-<vertex x="17" y="156.75"/>
-<vertex x="15.5" y="158.25"/>
-<vertex x="14.5" y="159.25"/>
-<vertex x="14.5" y="175"/>
-</polygon>
-<polygon width="0.254" layer="1" isolate="1.016" thermals="no" rank="5">
-<vertex x="17.5" y="127"/>
-<vertex x="17.5" y="148.5"/>
-<vertex x="17" y="149"/>
-<vertex x="17.1" y="156.66"/>
-<vertex x="24" y="156.66"/>
-<vertex x="24" y="127"/>
-</polygon>
-</signal>
-<signal name="N$19">
-<contactref element="K16" pad="1A"/>
-<contactref element="K16" pad="1B"/>
-<contactref element="Q9" pad="D7"/>
-<contactref element="Q9" pad="D6"/>
-<contactref element="Q9" pad="D8"/>
-<contactref element="Q9" pad="D5"/>
-<contactref element="Q9" pad="DPAD"/>
-<contactref element="C32" pad="1"/>
-<polygon width="0.254" layer="1" isolate="1.016" thermals="no" rank="5">
-<vertex x="26.75" y="174.75"/>
-<vertex x="26.75" y="148.75"/>
-<vertex x="35" y="148.75"/>
-<vertex x="35" y="155.5"/>
-<vertex x="35" y="156.5"/>
-<vertex x="33.5" y="158"/>
-<vertex x="32.5" y="159"/>
-<vertex x="32.5" y="174.75"/>
-</polygon>
-<polygon width="0.254" layer="1" isolate="1.016" thermals="no" rank="5">
-<vertex x="35.5" y="127"/>
-<vertex x="35.5" y="148.5"/>
-<vertex x="35" y="149"/>
-<vertex x="35.1" y="156.66"/>
-<vertex x="42" y="156.66"/>
-<vertex x="42" y="127"/>
-</polygon>
 </signal>
 <signal name="5V">
 <contactref element="U1" pad="8"/>
@@ -4526,9 +3765,9 @@ design rules under a new name.
 <contactref element="IC1" pad="11"/>
 <contactref element="K5" pad="B3"/>
 <contactref element="K5" pad="A3"/>
+<wire x1="110" y1="42.2" x2="140.7" y2="58.865" width="0" layer="19" extent="1-1"/>
 <wire x1="167.04" y1="34.03" x2="140.7" y2="58.865" width="0" layer="19" extent="1-1"/>
 <wire x1="167.04" y1="21.03" x2="167.04" y2="34.03" width="0" layer="19" extent="1-1"/>
-<wire x1="110" y1="42.2" x2="140.7" y2="58.865" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$21">
 <contactref element="Y2" pad="P$2"/>
@@ -4545,263 +3784,23 @@ design rules under a new name.
 <contactref element="BAT1" pad="+"/>
 <wire x1="146.3" y1="60.135" x2="163.4" y2="47" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N$4">
-<contactref element="U4" pad="1"/>
-<contactref element="R11" pad="2"/>
-<wire x1="107" y1="92.85" x2="107.23" y2="95.65" width="0" layer="19" extent="1-1"/>
-</signal>
 <signal name="PWM_SEG2">
-<contactref element="R11" pad="1"/>
 <contactref element="U2" pad="7"/>
-<wire x1="87.825" y1="83.3178" x2="107" y2="91.15" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="VO1">
-<contactref element="U4" pad="5"/>
-<contactref element="Q2" pad="G4"/>
-<wire x1="141.825" y1="129.095" x2="108.5" y2="106.35" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$6">
-<contactref element="K9" pad="1A"/>
-<contactref element="K9" pad="1B"/>
-<contactref element="Q2" pad="D5"/>
-<contactref element="Q2" pad="DPAD"/>
-<contactref element="Q2" pad="D6"/>
-<contactref element="Q2" pad="D7"/>
-<contactref element="Q2" pad="D8"/>
-<contactref element="C25" pad="1"/>
-<polygon width="0.254" layer="1" isolate="1.016" thermals="no" rank="5">
-<vertex x="134.75" y="174.75"/>
-<vertex x="134.75" y="148.75"/>
-<vertex x="143" y="148.75"/>
-<vertex x="143" y="155.5"/>
-<vertex x="143" y="156.5"/>
-<vertex x="141.5" y="158"/>
-<vertex x="140.5" y="159"/>
-<vertex x="140.5" y="174.75"/>
-</polygon>
-<polygon width="0.254" layer="1" isolate="1.016" thermals="no" rank="5">
-<vertex x="143.5" y="123.5"/>
-<vertex x="143.5" y="148.5"/>
-<vertex x="143" y="149"/>
-<vertex x="143.1" y="156.66"/>
-<vertex x="150" y="156.66"/>
-<vertex x="150" y="123.5"/>
-</polygon>
-</signal>
-<signal name="N$7">
-<contactref element="U5" pad="1"/>
-<contactref element="R12" pad="2"/>
-<wire x1="99.5" y1="92.85" x2="99.73" y2="95.65" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PWM_SEG3">
-<contactref element="R12" pad="1"/>
 <contactref element="U2" pad="8"/>
-<wire x1="87.175" y1="83.3178" x2="99.5" y2="91.15" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="VO2">
-<contactref element="U5" pad="5"/>
-<contactref element="Q3" pad="G4"/>
-<wire x1="101" y1="106.35" x2="123.825" y2="129.095" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$8">
-<contactref element="K10" pad="1A"/>
-<contactref element="K10" pad="1B"/>
-<contactref element="Q3" pad="D5"/>
-<contactref element="Q3" pad="DPAD"/>
-<contactref element="Q3" pad="D6"/>
-<contactref element="Q3" pad="D7"/>
-<contactref element="Q3" pad="D8"/>
-<contactref element="C26" pad="1"/>
-<polygon width="0.254" layer="1" isolate="1.016" thermals="no" rank="5">
-<vertex x="116.75" y="174.75"/>
-<vertex x="116.75" y="148.75"/>
-<vertex x="125" y="148.75"/>
-<vertex x="125" y="155.5"/>
-<vertex x="125" y="156.5"/>
-<vertex x="123.5" y="158"/>
-<vertex x="122.5" y="159"/>
-<vertex x="122.5" y="174.75"/>
-</polygon>
-<polygon width="0.254" layer="1" isolate="1.016" thermals="no" rank="5">
-<vertex x="125.5" y="123.5"/>
-<vertex x="125.5" y="148.5"/>
-<vertex x="125" y="149"/>
-<vertex x="125.1" y="156.66"/>
-<vertex x="132" y="156.66"/>
-<vertex x="132" y="123.5"/>
-</polygon>
-</signal>
-<signal name="N$9">
-<contactref element="U6" pad="1"/>
-<contactref element="R13" pad="2"/>
-<wire x1="93" y1="92.85" x2="93.23" y2="95.65" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PWM_SEG4">
-<contactref element="R13" pad="1"/>
 <contactref element="U2" pad="9"/>
-<wire x1="86.525" y1="83.3178" x2="93" y2="91.15" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="VO3">
-<contactref element="U6" pad="5"/>
-<contactref element="Q4" pad="G4"/>
-<wire x1="94.5" y1="106.35" x2="105.825" y2="129.095" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$11">
-<contactref element="K11" pad="1A"/>
-<contactref element="K11" pad="1B"/>
-<contactref element="Q4" pad="D5"/>
-<contactref element="Q4" pad="DPAD"/>
-<contactref element="Q4" pad="D6"/>
-<contactref element="Q4" pad="D7"/>
-<contactref element="Q4" pad="D8"/>
-<contactref element="C27" pad="1"/>
-<polygon width="0.254" layer="1" isolate="1.016" thermals="no">
-<vertex x="98.75" y="174.75"/>
-<vertex x="98.75" y="148.75"/>
-<vertex x="107" y="148.75"/>
-<vertex x="107" y="155.5"/>
-<vertex x="107" y="156.5"/>
-<vertex x="105.5" y="158"/>
-<vertex x="104.5" y="159"/>
-<vertex x="104.5" y="174.75"/>
-</polygon>
-<polygon width="0.254" layer="1" isolate="1.016" thermals="no" rank="5">
-<vertex x="107.5" y="123.5"/>
-<vertex x="107.5" y="148.5"/>
-<vertex x="107" y="149"/>
-<vertex x="107.1" y="153.66"/>
-<vertex x="114" y="153.66"/>
-<vertex x="114" y="123.5"/>
-</polygon>
-</signal>
-<signal name="N$12">
-<contactref element="U7" pad="1"/>
-<contactref element="R14" pad="2"/>
-<wire x1="86" y1="92.85" x2="86.23" y2="95.65" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PWM_SEG5">
-<contactref element="R14" pad="1"/>
 <contactref element="U2" pad="10"/>
-<wire x1="85.875" y1="83.3178" x2="86" y2="91.15" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="VO4">
-<contactref element="U7" pad="5"/>
-<contactref element="Q5" pad="G4"/>
-<wire x1="87.5" y1="106.35" x2="87.825" y2="129.095" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$13">
-<contactref element="K12" pad="1A"/>
-<contactref element="K12" pad="1B"/>
-<contactref element="Q5" pad="D5"/>
-<contactref element="Q5" pad="DPAD"/>
-<contactref element="Q5" pad="D6"/>
-<contactref element="Q5" pad="D7"/>
-<contactref element="Q5" pad="D8"/>
-<contactref element="C28" pad="1"/>
-<polygon width="0.254" layer="1" isolate="1.016" thermals="no" rank="5">
-<vertex x="80.75" y="174.75"/>
-<vertex x="80.75" y="148.75"/>
-<vertex x="89" y="148.75"/>
-<vertex x="89" y="155.5"/>
-<vertex x="89" y="156.5"/>
-<vertex x="87.5" y="158"/>
-<vertex x="86.5" y="159"/>
-<vertex x="86.5" y="174.75"/>
-</polygon>
-<polygon width="0.254" layer="1" isolate="1.016" thermals="no" rank="5">
-<vertex x="89.5" y="123.5"/>
-<vertex x="89.5" y="148.5"/>
-<vertex x="89" y="149"/>
-<vertex x="89.1" y="156.66"/>
-<vertex x="96" y="156.66"/>
-<vertex x="96" y="123.5"/>
-</polygon>
-</signal>
-<signal name="N$14">
-<contactref element="U8" pad="1"/>
-<contactref element="R15" pad="2"/>
-<wire x1="79" y1="92.85" x2="79.23" y2="95.65" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PWM_SEG6">
-<contactref element="R15" pad="1"/>
 <contactref element="U2" pad="11"/>
-<wire x1="85.225" y1="83.3178" x2="79" y2="91.15" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="VO5">
-<contactref element="U8" pad="5"/>
-<contactref element="Q6" pad="G4"/>
-<wire x1="80.5" y1="106.35" x2="69.825" y2="129.095" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$15">
-<contactref element="K13" pad="1A"/>
-<contactref element="K13" pad="1B"/>
-<contactref element="Q6" pad="D5"/>
-<contactref element="Q6" pad="DPAD"/>
-<contactref element="Q6" pad="D6"/>
-<contactref element="Q6" pad="D7"/>
-<contactref element="Q6" pad="D8"/>
-<contactref element="C29" pad="1"/>
-<polygon width="0.254" layer="1" isolate="1.016" thermals="no" rank="5">
-<vertex x="62.75" y="174.75"/>
-<vertex x="62.75" y="148.75"/>
-<vertex x="71" y="148.75"/>
-<vertex x="71" y="155.5"/>
-<vertex x="71" y="156.5"/>
-<vertex x="69.5" y="158"/>
-<vertex x="68.5" y="159"/>
-<vertex x="68.5" y="174.75"/>
-</polygon>
-<polygon width="0.254" layer="1" isolate="1.016" thermals="no" rank="5">
-<vertex x="71.5" y="123.5"/>
-<vertex x="71.5" y="148.5"/>
-<vertex x="71" y="149"/>
-<vertex x="71.1" y="156.66"/>
-<vertex x="78" y="156.66"/>
-<vertex x="78" y="123.5"/>
-</polygon>
-</signal>
-<signal name="N$16">
-<contactref element="U9" pad="1"/>
-<contactref element="R16" pad="2"/>
-<wire x1="72" y1="92.85" x2="72.23" y2="95.65" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PWM_SEG7">
-<contactref element="R16" pad="1"/>
 <contactref element="U2" pad="12"/>
-<wire x1="72" y1="91.15" x2="84.575" y2="83.3178" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="VO6">
-<contactref element="U9" pad="5"/>
-<contactref element="Q7" pad="G4"/>
-<wire x1="73.5" y1="106.35" x2="51.825" y2="129.095" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$17">
-<contactref element="K14" pad="1A"/>
-<contactref element="K14" pad="1B"/>
-<contactref element="Q7" pad="D5"/>
-<contactref element="Q7" pad="DPAD"/>
-<contactref element="Q7" pad="D6"/>
-<contactref element="Q7" pad="D7"/>
-<contactref element="Q7" pad="D8"/>
-<contactref element="C30" pad="1"/>
-<polygon width="0.254" layer="1" isolate="1.016" thermals="no" rank="5">
-<vertex x="44.75" y="174.75"/>
-<vertex x="44.75" y="148.75"/>
-<vertex x="53" y="148.75"/>
-<vertex x="53" y="155.5"/>
-<vertex x="53" y="156.5"/>
-<vertex x="51.5" y="158"/>
-<vertex x="50.5" y="159"/>
-<vertex x="50.5" y="174.75"/>
-</polygon>
-<polygon width="0.254" layer="1" isolate="1.016" thermals="no" rank="5">
-<vertex x="53.5" y="123.5"/>
-<vertex x="53.5" y="148.5"/>
-<vertex x="53" y="149"/>
-<vertex x="53.1" y="154.16"/>
-<vertex x="60" y="154.16"/>
-<vertex x="60" y="123.5"/>
-</polygon>
 </signal>
 <signal name="!RESET">
 <contactref element="K6" pad="5"/>
@@ -5706,11 +4705,6 @@ design rules under a new name.
 <contactref element="LED2" pad="A"/>
 <wire x1="237.65" y1="63" x2="34.5" y2="69.25" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N$63">
-<contactref element="R1" pad="1"/>
-<contactref element="LED1" pad="A"/>
-<wire x1="243.15" y1="65.5" x2="32.5" y2="80" width="0" layer="19" extent="1-1"/>
-</signal>
 <signal name="N$60">
 <contactref element="LED5" pad="A"/>
 <contactref element="U15" pad="3"/>
@@ -6463,6 +5457,33 @@ design rules under a new name.
 <wire x1="162.5" y1="2.75" x2="164.15" y2="2.75" width="0.254" layer="1"/>
 <wire x1="164.15" y1="2.75" x2="164.175" y2="2.725" width="0.254" layer="1"/>
 <wire x1="162.5" y1="2.75" x2="160.825" y2="2.725" width="0" layer="19" extent="1-16"/>
+</signal>
+<signal name="PWM_SEG10">
+<contactref element="U2" pad="16"/>
+</signal>
+<signal name="PWM_SEG11">
+<contactref element="U2" pad="17"/>
+</signal>
+<signal name="PWM_SEG12">
+<contactref element="U2" pad="18"/>
+</signal>
+<signal name="PWM_SEG13">
+<contactref element="U2" pad="19"/>
+</signal>
+<signal name="PWM_SEG14">
+<contactref element="U2" pad="20"/>
+</signal>
+<signal name="PWM_SEG15">
+<contactref element="U2" pad="21"/>
+</signal>
+<signal name="PWM_SEG16">
+<contactref element="U2" pad="22"/>
+</signal>
+<signal name="PWM_SEG8">
+<contactref element="U2" pad="13"/>
+</signal>
+<signal name="PWM_SEG9">
+<contactref element="U2" pad="15"/>
 </signal>
 </signals>
 </board>
